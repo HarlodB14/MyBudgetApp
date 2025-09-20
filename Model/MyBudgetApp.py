@@ -1,8 +1,4 @@
-from idlelib.pyparse import trans
-
-from Model import User
 from Model.BudgetItem import BudgetItem
-from Model.Transaction import Transaction
 
 
 class MyBudgetApp:

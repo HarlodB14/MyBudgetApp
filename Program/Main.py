@@ -1,8 +1,9 @@
-from Model.MyBudgetApp import MyBudgetApp
+
+from Controller.MainController import MainController
 
 
 def main():
-    myBudgetApp = MyBudgetApp()
+    application = MainController()
 
 if __name__ == "__main__":
     main()
